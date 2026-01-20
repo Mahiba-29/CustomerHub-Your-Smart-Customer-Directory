@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Page background */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+}
+
+/* Main content wrapper */
+.main-container {
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Material card enhancement */
+mat-card {
+  border-radius: 16px !important;
+  padding: 25px !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08) !important;
+}
